@@ -1,0 +1,41 @@
+Program #1 Write-Up
+January 20, 2023
+Genevieve Latimer
+CS302 Winter 23’
+
+For program one, I will be making a smart home manager application.  
+For my base class I decided to make a device class which would derive smart_lock, 
+thermostat, and sound_system as children.  
+	
+Smart_lock “is a” device.  It “has a” network of sensors and “has a” list of PINs.  
+The user will have the main device (usually front door) with the option to add sensors 
+in different locations.  For example, we have a front door lock, a back door lock, 
+a garage door lock, and window sensors.  After setting up the sensors, the app will 
+provide various functions to remotely check if the door is locked, enter a pin to unlock 
+the door, and create a temporary pin (possibly for the dog walker).  I was thinking of 
+making a function that would log events associated with pins to track coming and going 
+action, but then I would have to simulate this, and I think that’s a bit complicated. 
+
+Thermostat “is a device”.  It “has a” network of sensors contained in an STL vector.  
+The main device will be the thermostat and the user will have the option to add sensors 
+in different spaces.  For example, main thermostat, bedroom 1 sensor, bedroom 2 sensor.  
+Once the sensors are setup, the user will be able to set the temperature remotely and 
+make a weekly schedule.  The schedule will be an array of linked lists.  The array will 
+have seven elements (one for each day of the week) and the user can set temperatures for 
+various times of the day.  For example, Monday through Friday the temperature will be 
+set to 58 degrees from the hours of 9:00a to 3:00p. By 5:00p, the temp will be a perfect 
+temperature of 64 degrees and reduce to 61 degrees around 9:00p for bedtime.  
+	
+Sound_system “is a” device.  It “has a” network of speakers contained in a circularly linked 
+list.  The application will aid in setting up the network of speakers.  The user will be 
+able to connect the network of speakers to different players like, a phone, record player, 
+or smart TV (anything connected to the same wifi).  From the app, the user can select the 
+zone they would like to activate and then control the volume after that.  
+
+Each class has their own display() function that will trigger the parent’s display() 
+function.  Each class has a clear_members() function that will be used for destructors 
+and assignment operators.  The only use of getters and setters will be for memory management 
+of my data structures (that I’m aware of).  It still kind of bothers me that my classes 
+are singular.  If I were to think it over again, I would simplify with something that a 
+household contains multiples of like: lights, smart TVs, and Alexa-type nodes. 
+
