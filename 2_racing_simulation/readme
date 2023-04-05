@@ -1,0 +1,50 @@
+Genevieve Latimer
+February 22, 2023
+Efficiency Write Up #2
+
+For Program Two, I made a hierarchy of classes that would be vehicles for racing.  
+I made gambler_500, electric_car, and mario_kart derivative classes from my 
+vehicle base class.  I made a doubly linked list that would contain a roster of 
+contestants for each race.  I used a standard library forward_list of event 
+class objects that would be able to build customizable racecourses.  There were 
+so many parts to this program. The application to bring it all together was 
+time consuming, but I think the program turned out really well.
+
+The goal of this program was to use templates in an attempt to attain generic 
+programming.  After making so many data structures throughout my previous 
+courses, it was interesting to try to make one that is stripped down with 
+the idea of being able to use it as a plug-and-play data structure.  I 
+realized how in the past my data structures included so many specific features 
+that really made the data structure unusable in any other circumstance.  With 
+my doubly linked list, I am able to insert and display a list of any data type.  
+I would have liked to implement a search and retrieve option if I had the time.  
+I also would have liked to implement some kind of use for the prev pointer like 
+an ordered list or something.  One thing I was excited about was because I 
+overloaded the istream and ostream operators, my display function can seamlessly 
+display char, int, and my hierarchy classes with the << operator rather than a 
+obj.display() function which would not have worked with classic data types that 
+use the << operator to display.  
+
+Originally, I had planned on making my doubly linked list act as the racecourse 
+with each node representing a different obstacle.  In that case, I should have 
+made my hierarchy of obstacles (base) with water, land, and sky terrains (derived).  
+So, I had to reroute the idea to fit my already implemented vehicle hierarchy 
+into the doubly linked list as a roster.  I made a supporting event class to 
+generate random numbers for the intensity and duration of the event that would 
+act upon my hierarchy object. This was the tricky part – connecting all of these 
+functions up without spaghetti code!  In the end, I did have to use getters for 
+some event members (only two!) so that my hierarchy could interact with the event.  
+
+All of this was pulled together into an app class that managed the application.  
+It was responsible for prompting the user, manually adding contestants, building 
+a preset list of contestants, building a preset racecourse, calling the race 
+simulation, and displaying the winner.  While I tried my best to abstract 
+everything away from the user and not use getters and setters, I think that I 
+could have refined how the classes all worked together in a cleaner way.  
+Not sure what that way would be just yet because I ran out of time!  I also 
+didn’t get to make a robust simulation of my three kinds of races.  It would 
+have been nice to be able to build more interaction with the user into the game 
+like the option to jump if a tree falls along the path – stuff like that.  
+I would have also liked to refine my app class to be able to make custom 
+courses, rosters, and, races.  
+
