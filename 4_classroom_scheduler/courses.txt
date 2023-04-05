@@ -1,0 +1,15 @@
+Jesse Chaney| CS333 Introduction to Operating Systems| 50395| M & W| 11:30a-1:20p
+Michael Wilson| CS305 Social, Ethical, and Legal Implications of Computing| 65045| F| 10:00a-11:50a
+Christopher Gilmore| CS314 Elements of Software Engineering| 42950| M & W| 6:40p-8:30p
+David Ely| CS350 Algorithms and Complexity| 55960| T & Th| 2:00p-3:50p
+Sayan Bandyapadhyay| CS410 Data Clustering| 23405| T & Th| 12:00p-1:50p
+Jingke Li| CS415 Parallel Programming| 79043| T & Th| 2:00p-3:50p
+Karla Fant| CS302 Lab| 32938| F| 10:00a-12:00p
+Nirupama Bulusu| CS494 Internetworking Protocols| 34095| M & W| 12:00p-1:00p
+Mark Martin| ECE316 Signals and Systems II| 49502| T & Th| 4:40p-6:30p
+Nic Redfield| ECE331 Lab| 20495| F| 3:00p-5:50p
+Renjeng Su| ECE332 Lab| 48292| F| 9:00a-11:50a
+Nathan Mai| ECE373 Lab| 97538| T| 6:40p-9:30p
+Karla Fant| CS302 Programming Methodologies and Software Implementation| 32932| T & Th| 4:40p-6:20p
+Catarina Paun| CS464 Introduction to Website Development| 90534| WEB| 10:00a-12:00p
+Yeganeh Jalalpour| CS486 Introduction to Database Management| 45749| Systems| WEB| 1:00p-2:20p

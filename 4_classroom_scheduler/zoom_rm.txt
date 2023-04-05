@@ -1,0 +1,10 @@
+155, 90, True, True, 2, 2
+160, 40, True, False, 1, 1
+165, 60, False, False, 2, 2
+170, 90, True, True, 2, 2
+175, 40, True, False, 1, 1
+180, 60, False, False, 2, 2
+185, 90, True, False, 1, 1
+190, 40, False, False, 2, 2
+195, 60, True, False, 1, 1
+100, 90, False, True, 2, 2
