@@ -1,0 +1,36 @@
+========================================================================
+  	                 CS302 Assignment #3
+________________________________________________________________________
+........................................................................
+  				README
+........................................................................
+------------------------------------------------------------------------
+You should be able to compile this program using make.
+A safe bet is to "make clean" from the command line to 
+compile from scratch.
+
+This program will have a hierarchy of health_event derived classes:
+1) fitness
+2) supplements
+3) intermittent fasting (IF)
+
+The program will record various health events and add them to a BST
+ordered by the event's title.  
+
+The client will select from an option menu:
+1) add a health event
+2) display the tree of health events
+3) edit a health event
+4) complete a task
+5) remove a health event from the tree
+6) remove all events from the tree
+
+I attempted to use upcasting to access the IF class's alert() 
+function, but it was not successful.  You can test this by 
+selecting [4] complete a task from the menu and enter Week 1.  
+Nothing will happen for the IF complete a task like it should.
+However, [4] complete a task will work as expected for the other
+classes in the hierarchy -- fitness and supplements.
+
+by: Genevieve Latimer (glatimer@pdx.edu)
+
