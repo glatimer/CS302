@@ -1,11 +1,6 @@
-Program #1 Write-Up
-January 20, 2023
-Genevieve Latimer
-CS302 Winter 23’
-
-For program one, I will be making a smart home manager application.  
-For my base class I decided to make a device class which would derive smart_lock, 
-thermostat, and sound_system as children.  
+In this project, I will be making a smart home manager application.  
+For my base class in the hierarchy I decided to make a device class which would derive 
+smart_lock, thermostat, and sound_system as children.  
 	
 Smart_lock “is a” device.  It “has a” network of sensors and “has a” list of PINs.  
 The user will have the main device (usually front door) with the option to add sensors 
